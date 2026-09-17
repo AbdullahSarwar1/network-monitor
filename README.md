@@ -2,6 +2,22 @@
 
 A real-time network packet capture and analysis tool for Windows, built as a Computer Networks (CN) project. It captures live traffic using **WinPcap/Npcap**, exposes a local HTTP API, and displays packet data through a browser-based dashboard.
 
+## 📸 Preview
+
+```text
++-----------------------------------------------------------------------+
+|  [ Interface: Wi-Fi ] [ Start Monitoring ] [ Stop ] [ Export CSV ]   |
+|-----------------------------------------------------------------------|
+|  Total Packets: 1,420 | Total Bytes: 1.2 MB | Active Protocol: TCP    |
+|-----------------------------------------------------------------------|
+|  #   Time      Source IP        Dest IP          Proto   Length  Info |
+|  1   12:00:01  192.168.1.15     142.250.190.46   TCP     64      HTTP |
+|  2   12:00:02  192.168.1.15     8.8.8.8          UDP     53      DNS  |
++-----------------------------------------------------------------------+
+```
+> *Add your screenshot: `![Network Monitor Dashboard](screenshot.png)`*
+
+
 
 ## Features
 
